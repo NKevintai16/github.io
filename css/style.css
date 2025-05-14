@@ -357,6 +357,13 @@ header{
         position: relative;
         z-index: 2;
     }
+
+    .nav{
+        width: 70%;
+        right: 0;
+        left:auto;
+    }
+
 } 
 
 /* My work*/
@@ -458,4 +465,17 @@ header{
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* mobile overflow fixes*/
+
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
