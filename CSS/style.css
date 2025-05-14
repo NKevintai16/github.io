@@ -43,8 +43,8 @@ html{
 
 
 body{
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(#111314);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
