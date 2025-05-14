@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Thai Tai Kevin Nguyen Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="CSS/style.css">
+        
+        <!-- change with my own fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="Home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Thai Tai Nguyen</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="IMG/KevinFirst.jpg" alt="picture of Kevin smiling" class="intro__img">
+        </section>
+
+        <!--My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Full-Stack Web Development</h3>
+                    <p>I design and build complete web applications from scratch—combining responsive frontends (React, Next.js, or Angular) with powerful backends (Java/Spring, Node.js, or Python). Whether it’s a dynamic SaaS platform or a custom business solution, I deliver seamless, scalable, and secure applications
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Backend API Development</h3>
+                    <p>I architect high-performance RESTful APIs and microservices using Java (Spring Boot), Node.js, or Python. From database design to authentication and cloud integration, I ensure your backend is robust, efficient, and ready to scale.
+                    </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Frontend Development & UI Modernization</h3>
+                    <p>I transform ideas into polished, user-friendly interfaces with modern frameworks like React, Next.js, or Vue.js. Need a redesign or a single-page app? I focus on speed, accessibility, and engaging UX/UI design.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!--/services-->
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--about me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"> Aspiring Full-Stack Developer based out of Dallas, TX</p>
+
+            <div class="about-me__body">
+                <p>I'm Thai Tai, an aspiring full-stack developer who thrives at the intersection of logic and creativity. With a strong foundation in Java backend development and a love for crafting intuitive frontend experiences, I build seamless web applications that are as efficient under the hood as they are delightful to use. </p>
+                <p>My journey in tech began when I built my first CRUD app. Since then I've honed my skillsin:</p>
+                <ul>
+                    <li>Backend: Java(Spring Boot), RESTful APIs, databases(SQL)</li>
+                    <li>Frontend:HTML/CSS</li>
+                    <li>DevOps: AWS</li>
+                </ul>
+                <p>When I'm not coding, you'll find me bouldering or studying Japanese, two passions that teach me problem solving, patience, and percision.</p>
+                <p>Let's grow together! I'm actively seeking collaborative projects and mentorship opportunities →<a href="mailto:n.kevintai16@gmail.com">n.kevintai16@gmail.com</a></p>
+            </div>
+
+            <img src="IMG/DSC06877.png" alt="Kevin standing near flowers" class="about-me__img">
+        </section>
+
+        <!--My Work-->
+        <section class="my-work" id="Work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href=""class=portfolio__item>
+                    <img src="" alt="" class="Portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+
+        <footer class="footer">
+            <a href="mailto:n.kevintai16@gmail.com" class="footer__link">n.kevintai16@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/thaitai-nguyen">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/NKevintai16">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html>
