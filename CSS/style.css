@@ -16,6 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
+    --clr-background: #111314;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -43,7 +44,7 @@ html{
 
 
 body{
-    background: var(#111314);
+    background: var(--clr-background);
     color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
