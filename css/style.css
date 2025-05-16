@@ -17,6 +17,7 @@
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
     --clr-background: #111314;
+    --clr-black: #000000;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -120,6 +121,7 @@ h3 {font-size: var(--fs-h3);}
 
 .section__subtitle--intro,
 .section__subtitle--about{
+    color: var(--clr-black);
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
